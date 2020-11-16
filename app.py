@@ -10,7 +10,7 @@ st.title('IPL Cricket Stats (Player Rankings)')
 st.write('---')
 
 st.markdown("""
-* **Find the full source code at** [Github](https://github.com/adityarc19/IPL-analysis).
+**Find the full source code at** [Github](https://github.com/adityarc19/IPL-analysis).
 """)
 
 st.write('---')
