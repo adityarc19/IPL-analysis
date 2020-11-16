@@ -9,6 +9,12 @@ import numpy as np
 st.title('IPL Cricket Stats (Player Rankings)')
 st.write('---')
 
+st.markdown("""
+* **Find the full source code at:** [Github](https://github.com/adityarc19/IPL-analysis).
+""")
+
+st.write('---')
+
 # image = Image.open('/Users/aditya/Downloads/streamlit/ipl-cricket-app/images/ipl-logo.jpg')
 
 # st.image(image, width=700)
