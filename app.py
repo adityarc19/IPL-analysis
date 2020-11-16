@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL import Image
+# from PIL import Image
 import pandas as pd
 import base64
 import matplotlib.pyplot as plt
@@ -9,9 +9,9 @@ import numpy as np
 st.title('IPL Cricket Stats (Player Rankings)')
 st.write('---')
 
-image = Image.open('ipl-logo.jpg')
+# image = Image.open('ipl-logo.jpg')
 
-st.image(image, width=700)
+# st.image(image, width=700)
 
 # st.markdown("""
 # This app performs simple webscraping of IPL Cricket player stats data (focussing on player rankings)!
