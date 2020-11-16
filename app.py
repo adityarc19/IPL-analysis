@@ -95,7 +95,7 @@ if st.button('Intercorrelations'):
 
 
 #Bar chart
-if st.button('Team performance'):
+if st.button('Team contribution'):
     df_selected_team.to_csv('output.csv', index=False)
     df = pd.read_csv('output.csv')
     st.bar_chart(df['Team'])
