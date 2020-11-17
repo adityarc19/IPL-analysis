@@ -132,3 +132,8 @@ if st.button('Comparison of teams based on Value of their players'):
     fig, ax = plt.subplots(figsize=fig_dims)
     sns.barplot(x='Value', y='Team', ax=ax, data=df)
     st.pyplot()
+
+   
+st.write('---')
+st.write("""To predict the 'Value' of players with statistics of your own, test out a live 
+interactive web app [here](https://ipl-player-value-pred-app.herokuapp.com/)""")
