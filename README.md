@@ -7,6 +7,7 @@ The web app is live at https://ipl-cricket-app.herokuapp.com/
 
 
 ### This app performs webscraping of IPL Cricket player stats data (focussing on player rankings)!
+I have uploaded all the datasets from 2008 to 2020 on [Kaggle](https://www.kaggle.com/adityarc19/ipl-player-stats-2008-to-2020).
 ### Python libraries: base64, pandas, streamlit, numpy, matplotlib, seaborn
 
 
