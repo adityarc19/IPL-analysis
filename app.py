@@ -5,6 +5,7 @@ import base64
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+import sweetviz as sv
 
 st.title('IPL Cricket Stats (Player Rankings)')
 st.write('---')
@@ -78,7 +79,8 @@ st.markdown(filedownload(df_selected_team), unsafe_allow_html=True)
 
 st.header('**Exploratory Data Analysis**:')
 
-# Heatmap
+
+#Heatmap
 if st.button('Intercorrelations'):
     df_selected_team.to_csv('output.csv', index=False)
     df = pd.read_csv('output.csv')
@@ -133,6 +135,9 @@ if st.button('Comparison of teams based on Value of their players'):
     sns.barplot(x='Value', y='Team', ax=ax, data=df)
     st.pyplot()
 
+if st.button("Generate Streamlit Report"):
+    report = sv.analyze(df_selected_team)
+    report.show_html(open_browser=True)
    
 st.write('---')
 st.write("""To predict the 'Value' of players with statistics of your own, test out a live 
